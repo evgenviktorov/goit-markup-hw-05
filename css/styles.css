@@ -451,6 +451,7 @@ img {
 }
 
 .footer-social {
+  margin-right: 80px;
 }
 
 .footer-page .footer-social .text {
@@ -493,5 +494,17 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-form {
+}
+
+.form-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
 /* #endregion Section Footer ==================================================== */
 /* _EV_ */

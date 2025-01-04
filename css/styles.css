@@ -549,5 +549,10 @@ img {
 .input-subscribe-form::placeholder {
   color: #ffffff;
 }
+
+.icons-btn {
+  fill: #ffffff;
+  margin-left: 16px;
+}
 /* #endregion Section Footer ==================================================== */
 /* _EV_ */

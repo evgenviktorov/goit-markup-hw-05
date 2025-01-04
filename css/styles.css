@@ -529,5 +529,25 @@ img {
   border-radius: 4px;
   color: #ffffff;
 }
+
+.btn-footer-form {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+}
+
+.input-subscribe-form::placeholder {
+  color: #ffffff;
+}
 /* #endregion Section Footer ==================================================== */
 /* _EV_ */

@@ -651,7 +651,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-modal-input:focus {
+.form-modal-input:focus-within {
   border-color: #4d5ae5;
 }
 
@@ -663,7 +663,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-modal-input:focus .form-modal-input-icons {
+.form-modal-input:focus-within .form-modal-input-icons {
   fill: #4d5ae5;
 }
 
@@ -678,7 +678,15 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  display: block;
-  margin-bottom: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-modal-input-textarea:focus {
+  border-color: #4d5ae5;
 }
 /* _EV_ */

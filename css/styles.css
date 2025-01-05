@@ -666,4 +666,19 @@ img {
 .form-modal-input:focus .form-modal-input-icons {
   fill: #4d5ae5;
 }
+
+.form-modal-textarea {
+  margin-bottom: 16px;
+}
+
+.form-modal-input-textarea {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  display: block;
+  margin-bottom: 4px;
+}
 /* _EV_ */

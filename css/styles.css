@@ -697,7 +697,7 @@ img {
 .checkbox {
 }
 
-.checkbox-privacy-policy:checked {
+.checkbox:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;

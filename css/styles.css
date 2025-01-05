@@ -697,6 +697,12 @@ img {
 .checkbox {
 }
 
+.checkbox-privacy-policy:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -724,6 +730,7 @@ img {
 
 .privacy-policy-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .btn-modal-send {

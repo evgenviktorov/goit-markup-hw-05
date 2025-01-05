@@ -479,7 +479,25 @@
     </footer>
     <div class="modal-cont">
       <div class="modal">
-        <button type="button" class="btn-modal">x</button>
+        <button type="button" class="btn-modal">
+          <svg class="icons-modal-cl" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="form-modal">
+          <div class="form-modal-cont">
+            <label for="user-name" class="form-modal-label">Name</label>
+            <div class="form-modal-input-cont">
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="form-modal-input"
+              />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
     <!-- #endregion Footer ==================================================== -->
